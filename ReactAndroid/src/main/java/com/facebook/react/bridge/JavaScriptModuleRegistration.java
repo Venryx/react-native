@@ -57,10 +57,10 @@ public class JavaScriptModuleRegistration {
       if (dollarSignIndex != -1) {
         name = name.substring(dollarSignIndex + 1);
       }
-	  
-	  // getting the class name every call is expensive, so cache it
-	  name_cached = name;
-	}
+      
+      // getting the class name every call is expensive, so cache it
+      name_cached = name;
+    }
     return name_cached;
   }
 
